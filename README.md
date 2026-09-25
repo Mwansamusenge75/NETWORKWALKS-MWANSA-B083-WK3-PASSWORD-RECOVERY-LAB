@@ -1,7 +1,7 @@
 # Week 3 — PDF password recovery lab
 
 **Student:** Mwansa Jonathan Musenge  
-**Program:** Networkwalks Internship Batch:083  
+**Program:** Networkwalks Cybersecurity Internship Batch:083  
 **Modules:** W3-PM1, John the Ripper; W3-PM2, Networkwalks browser tools  
 **Evidence date:** 25 September 2026
 
