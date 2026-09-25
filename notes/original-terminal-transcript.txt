@@ -1,0 +1,53 @@
+┌──(mwansa㉿kali)-[~/Downloads]
+└─$ pdf2john.pl "My Locked PDF1.pdf" > pdf_hash.txt
+pdf2john.pl: command not found
+                                                                                                                                                                      
+┌──(mwansa㉿kali)-[~/Downloads]
+└─$ pdf2john "My Locked PDF1.pdf" > pdf_hash.txt
+                                                                                                                                                                      
+┌──(mwansa㉿kali)-[~/Downloads]
+└─$ john --wordlist=/usr/share/wordlists/rockyou.txt pdf_hash.txt
+```[cite: 4]
+bquote> 
+bquote> 
+bquote> 
+bquote> 
+bquote> 
+                                                                                                                                                                      
+┌──(mwansa㉿kali)-[~/Downloads]
+└─$ john --wordlist=/usr/share/wordlists/rockyou.txt pdf_hash.txt
+```[cite: 4]
+bquote> 
+                                                                                                                                                                      
+┌──(mwansa㉿kali)-[~/Downloads]
+└─$ john --wordlist=/usr/share/wordlists/rockyou.txt pdf_hash.txt
+Using default input encoding: UTF-8
+Loaded 1 password hash (PDF [MD5 SHA2 RC4/AES 32/64])
+Cost 1 (revision) is 4 for all loaded hashes
+Will run 2 OpenMP threads
+fopen: /usr/share/wordlists/rockyou.txt: No such file or directory
+                                                                                                                                                                      
+┌──(mwansa㉿kali)-[~/Downloads]
+└─$ sudo gunzip /usr/share/wordlists/rockyou.txt.gz
+[sudo] password for mwansa: 
+                                                                                                                                                                      
+┌──(mwansa㉿kali)-[~/Downloads]
+└─$ john --wordlist=/usr/share/wordlists/rockyou.txt pdf_hash.txt
+Using default input encoding: UTF-8
+Loaded 1 password hash (PDF [MD5 SHA2 RC4/AES 32/64])
+Cost 1 (revision) is 4 for all loaded hashes
+Will run 2 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+good-luck        (My Locked PDF1.pdf)     
+1g 0:00:00:20 DONE (2026-09-25 16:28) 0.04899g/s 46082p/s 46082c/s 46082C/s good09..gonzales55
+Use the "--show --format=PDF" options to display all of the cracked passwords reliably
+Session completed. 
+                                                                                                                                                                      
+┌──(mwansa㉿kali)-[~/Downloads]
+└─$ john --show --format=PDF pdf_hash.txt
+My Locked PDF1.pdf:good-luck
+
+1 password hash cracked, 0 left
+                                                                                                                                                                      
+┌──(mwansa㉿kali)-[~/Downloads]
+└─$ 
