@@ -1,4 +1,4 @@
-# Week 3 — PDF password recovery lab
+# Week 3 - PDF password recovery lab
 
 **Student:** Mwansa Jonathan Musenge  
 **Program:** Networkwalks Cybersecurity Internship Batch:083  
